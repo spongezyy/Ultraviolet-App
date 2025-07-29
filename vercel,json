@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/uv/*", "destination": "/uv/index.html" },
+    { "source": "/service/*", "destination": "/service-worker.js" },
+    { "source": "/ultraviolet/*", "destination": "/ultraviolet/index.html" }
+  ]
+}
+
