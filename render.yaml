@@ -2,7 +2,7 @@ services:
   - type: web
     name: ultraviolet-proxy
     env: node
-    region: Singapore
+    region: singapore
     plan: free
     buildCommand: npm install
     startCommand: node index.js
