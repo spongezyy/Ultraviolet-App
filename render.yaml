@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ultraviolet-proxy
+    env: node
+    region: tokyo
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    branch: main
+    autoDeploy: true
